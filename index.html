@@ -1,0 +1,381 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Burger Code</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Holtwood+One+SC' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/modal.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-inverse">
+                          <div class="container-fluid">
+                              <div class="navbar-header">
+                                <a class="navbar-brand" href="#">BurgerCode</a>
+                              </div>
+                          <ul class="nav navbar-nav navbar-right"><li class="active"><a href="#1" data-toggle="tab">Menus</a></li><li><a href="#2" data-toggle="tab">Burgers</a></li><li><a href="#3" data-toggle="tab">Snacks</a></li><li><a href="#4" data-toggle="tab">Salades</a></li><li><a href="#5" data-toggle="tab">Boissons</a></li><li><a href="#6" data-toggle="tab">Desserts</a></li></ul>
+                        </div></nav><div class="tab-content"><div class="tab-pane active" id="1"><div class="row"><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/m1.png" alt="...">
+                                    <div class="price">8.90 €</div>
+                                    <div class="caption">
+                                        <h4>Menu Classic</h4>
+                                        <p>Sandwich: Burger, Salade, Tomate, Cornichon + Frites + Boisson</p>
+                                        <a href="view.php?id=1" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/m2.png" alt="...">
+                                    <div class="price">9.50 €</div>
+                                    <div class="caption">
+                                        <h4>Menu Bacon</h4>
+                                        <p>Sandwich: Burger, Fromage, Bacon, Salade, Tomate + Frites + Boisson</p>
+                                        <a href="view.php?id=2" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/m3.png" alt="...">
+                                    <div class="price">10.90 €</div>
+                                    <div class="caption">
+                                        <h4>Menu Big</h4>
+                                        <p>Sandwich: Double Burger, Fromage, Cornichon, Salade + Frites + Boisson</p>
+                                        <a href="view.php?id=3" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/m5.png" alt="...">
+                                    <div class="price">10.90 €</div>
+                                    <div class="caption">
+                                        <h4>Menu Fish</h4>
+                                        <p>Sandwich: Poisson, Salade, Mayonnaise, Cornichon + Frites + Boisson</p>
+                                        <a href="view.php?id=5" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/m6.png" alt="...">
+                                    <div class="price">11.90 €</div>
+                                    <div class="caption">
+                                        <h4>Menu Double Steak</h4>
+                                        <p>Sandwich: Double Burger, Fromage, Bacon, Salade, Tomate + Frites + Boisson</p>
+                                        <a href="view.php?id=6" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div></div>
+                        </div><div class="tab-pane" id="2"><div class="row"><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/b1.png" alt="...">
+                                    <div class="price">5.90 €</div>
+                                    <div class="caption">
+                                        <h4>Classic</h4>
+                                        <p>Sandwich: Burger, Salade, Tomate, Cornichon</p>
+                                        <a href="view.php?id=7" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/b3.png" alt="...">
+                                    <div class="price">6.90 €</div>
+                                    <div class="caption">
+                                        <h4>Fish</h4>
+                                        <p>Sandwich: Poisson pané, Fromage, Salade</p>
+                                        <a href="view.php?id=9" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/b4.png" alt="...">
+                                    <div class="price">5.90 €</div>
+                                    <div class="caption">
+                                        <h4>Chicken</h4>
+                                        <p>Sandwich: Poulet Frit, Tomate, Salade, Mayonnaise</p>
+                                        <a href="view.php?id=10" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/b5.png" alt="...">
+                                    <div class="price">6.50 €</div>
+                                    <div class="caption">
+                                        <h4>Big</h4>
+                                        <p>Sandwich: Double Burger, Fromage, Cornichon, Salade</p>
+                                        <a href="view.php?id=11" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/b6.png" alt="...">
+                                    <div class="price">7.50 €</div>
+                                    <div class="caption">
+                                        <h4>Double Steak</h4>
+                                        <p>Sandwich: Double Burger, Fromage, Bacon, Salade, Tomate</p>
+                                        <a href="view.php?id=12" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div></div>
+                        </div><div class="tab-pane" id="3"><div class="row"><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/s1.png" alt="...">
+                                    <div class="price">3.90 €</div>
+                                    <div class="caption">
+                                        <h4>Frites</h4>
+                                        <p>Pommes de terre frites</p>
+                                        <a href="view.php?id=13" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/s2.png" alt="...">
+                                    <div class="price">3.40 €</div>
+                                    <div class="caption">
+                                        <h4>Onion Rings</h4>
+                                        <p>Rondelles d'oignon frits</p>
+                                        <a href="view.php?id=14" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/s3.png" alt="...">
+                                    <div class="price">5.90 €</div>
+                                    <div class="caption">
+                                        <h4>Nuggets</h4>
+                                        <p>Nuggets de poulet frits</p>
+                                        <a href="view.php?id=15" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/s4.png" alt="...">
+                                    <div class="price">3.50 €</div>
+                                    <div class="caption">
+                                        <h4>Nuggets Fromage</h4>
+                                        <p>Nuggets de fromage frits</p>
+                                        <a href="view.php?id=16" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/s5.png" alt="...">
+                                    <div class="price">5.90 €</div>
+                                    <div class="caption">
+                                        <h4>Ailes de Poulet</h4>
+                                        <p>Ailes de poulet Barbecue</p>
+                                        <a href="view.php?id=17" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div></div>
+                        </div><div class="tab-pane" id="4"><div class="row"><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/sa1.png" alt="...">
+                                    <div class="price">8.90 €</div>
+                                    <div class="caption">
+                                        <h4>Salade César</h4>
+                                        <p>Poulet Pané</p>
+                                        <a href="view.php?id=18" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/sa2.png" alt="...">
+                                    <div class="price">8.90 €</div>
+                                    <div class="caption">
+                                        <h4>César Grillé</h4>
+                                        <p>Poulet Grillé</p>
+                                        <a href="view.php?id=19" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/sa3.png" alt="...">
+                                    <div class="price">5.90 €</div>
+                                    <div class="caption">
+                                        <h4>Salade Light</h4>
+                                        <p>Salade, Tomate, Concombre, Maîs</p>
+                                        <a href="view.php?id=20" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/sa4.png" alt="...">
+                                    <div class="price">7.90 €</div>
+                                    <div class="caption">
+                                        <h4>Poulet Pané</h4>
+                                        <p>Poulet Pané</p>
+                                        <a href="view.php?id=21" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/sa5.png" alt="...">
+                                    <div class="price">7.90 €</div>
+                                    <div class="caption">
+                                        <h4>Poulet Grillé</h4>
+                                        <p>Poulet Grillé</p>
+                                        <a href="view.php?id=22" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div></div>
+                        </div><div class="tab-pane" id="5"><div class="row"><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/bo1.png" alt="...">
+                                    <div class="price">1.90 €</div>
+                                    <div class="caption">
+                                        <h4>Coca-Cola</h4>
+                                        <p>Au choix: Petit, Moyen ou Grand</p>
+                                        <a href="view.php?id=23" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/bo2.png" alt="...">
+                                    <div class="price">1.90 €</div>
+                                    <div class="caption">
+                                        <h4>Coca-Cola Light</h4>
+                                        <p>Au choix: Petit, Moyen ou Grand</p>
+                                        <a href="view.php?id=24" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/bo3.png" alt="...">
+                                    <div class="price">1.90 €</div>
+                                    <div class="caption">
+                                        <h4>Coca-Cola Z</h4>
+                                        <p>Au choix: Petit, Moyen ou Grand</p>
+                                        <a href="view.php?id=25" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/bo4.png" alt="...">
+                                    <div class="price">1.90 €</div>
+                                    <div class="caption">
+                                        <h4>Fanta</h4>
+                                        <p>Au choix: Petit, Moyen ou Grand</p>
+                                        <a href="view.php?id=26" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/bo5.png" alt="...">
+                                    <div class="price">1.90 €</div>
+                                    <div class="caption">
+                                        <h4>Sprite</h4>
+                                        <p>Au choix: Petit, Moyen ou Grand</p>
+                                        <a href="view.php?id=27" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/bo6.png" alt="...">
+                                    <div class="price">1.90 €</div>
+                                    <div class="caption">
+                                        <h4>Nestea</h4>
+                                        <p>Au choix: Petit, Moyen ou Grand</p>
+                                        <a href="view.php?id=28" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div></div>
+                        </div><div class="tab-pane" id="6"><div class="row"><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/d1.png" alt="...">
+                                    <div class="price">4.90 €</div>
+                                    <div class="caption">
+                                        <h4>Fondant au chocolat</h4>
+                                        <p>Au choix: Chocolat Blanc ou au lait</p>
+                                        <a href="view.php?id=29" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/d2.png" alt="...">
+                                    <div class="price">2.90 €</div>
+                                    <div class="caption">
+                                        <h4>Muffin</h4>
+                                        <p>Au choix: Au fruits ou au chocolat</p>
+                                        <a href="view.php?id=30" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/d3.png" alt="...">
+                                    <div class="price">2.90 €</div>
+                                    <div class="caption">
+                                        <h4>Beignet</h4>
+                                        <p>Au choix: Au chocolat ou </p>
+                                        <a href="view.php?id=31" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/d4.png" alt="...">
+                                    <div class="price">3.95 €</div>
+                                    <div class="caption">
+                                        <h4>Milkshake</h4>
+                                        <p>Au choix: Fraise, Vanille ou Chocolat</p>
+                                        <a href="view.php?id=32" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div><div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img src="images/d5.png" alt="...">
+                                    <div class="price">5.90 €</div>
+                                    <div class="caption">
+                                        <h4>Sundae</h4>
+                                        <p>Au choix: Fraise, Caramel ou Chocolat</p>
+                                        <a href="view.php?id=33" class="btn btn-order" role="button" id="ajouter"> Voir le détail</a>
+                                    </div>
+                                </div>
+                            </div></div>
+                        </div></div>          </div>
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <!-- Chargement jQuery - Datatables et Bootstrap -->
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+        	<script type="text/javascript">
+
+        		// Get the modal
+        		var modal = document.getElementById('popup');
+
+        		// Get the button that opens the modal
+        		var btn = document.getElementById("ajouter");
+
+        		// Get the <span> element that closes the modal
+        		var span = document.getElementsByClassName("close")[0];
+
+        		// When the user clicks the button, open the modal
+        		btn.onclick = function() {
+        			modal.style.display = "block";
+        		}
+
+        		// When the user clicks on <span> (x), close the modal
+        		span.onclick = function() {
+        			modal.style.display = "none";
+        		}
+
+        		// When the user clicks anywhere outside of the modal, close it
+        		window.onclick = function(event) {
+        			if (event.target == modal) {
+        				modal.style.display = "none";
+        			}
+        		};
+
+        	</script>
+
+
+
+
+    </body>
+</html>
